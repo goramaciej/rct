@@ -1,0 +1,4 @@
+pureComponent instead Component - re-renders only
+
+for functional component:
+export default React.memo(cockpit) - it will only rerender when props really change

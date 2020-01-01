@@ -1,0 +1,18 @@
+Entire router is in Blog.js
+
+Instead of <a href> import { Link } from 'react-router-dom', then use: 
+	<li><Link to={{ pathname: '/new-post' }}>New Post</Link></li>
+or just:
+	<li><Link to="/new-post">New Post</Link></li>
+
+Use NavLink instead of Link to get <a> with active parameter generetad by react-router.
+You can also add activeClassName parameter to NavLink to set your own active class name.
+
+To get router data in non-routing component use withRouter hoc
+
+LAZY LOADING component:
+hoc -> asyncComponent
+
+
+
+REACT SUSPENSE in next chapter
